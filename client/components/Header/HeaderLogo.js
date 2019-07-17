@@ -41,7 +41,7 @@ const HeaderLogo = props => {
     <LogoImage>
       <a href="/" title="Homepage" onClick={goTo}>
         <img src="/images/logo.svg" alt="" />
-        Kutt.it
+        'J.C.P Laboratory'
       </a>
     </LogoImage>
   );
