@@ -18,12 +18,12 @@ const LogoImage = styled.div`
 
   @media only screen and (max-width: 488px) {
     a {
-      font-size: 200px;
+      font-size: 18px;
     }
   }
 
   img {
-    width: 18px;
+    width: 200px;
     margin-right: 11px;
   }
 `;
