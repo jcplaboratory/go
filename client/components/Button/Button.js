@@ -17,7 +17,7 @@ const StyledButton = styled.button`
   line-height: 1;
   word-break: keep-all;
   color: white;
-  background: linear-gradient(to right, #42a5f5, #2979ff);
+  background: linear-gradient(to right, #46d1b4, #339999);
   box-shadow: 0 5px 6px rgba(66, 165, 245, 0.5);
   border: none;
   border-radius: 100px;
