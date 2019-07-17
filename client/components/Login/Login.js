@@ -83,7 +83,7 @@ class Login extends Component {
     const { value: password } = form.elements.password;
     if (!email) return showError('Email address must not be empty.');
     if (!emailValidator.validate(email)) return showError('Email address format is not valid.');
-    if (/@jcplaboratory.org\s*$/.test(email)) {
+    if (!/@jcplaboratory.org\s*$/.test(email)) {
         return showError('You need a J.C.P Laboratory address to register.');
     } 
     if (password.trim().length < 8) {
