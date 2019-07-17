@@ -40,8 +40,8 @@ class Footer extends Component {
       <Wrapper isAuthenticated={this.props.isAuthenticated}>
         {!this.props.isAuthenticated && <ReCaptcha />}
         <Text>
-          Made with love by{' '}
-          <a href="//thedevs.network/" title="The Devs">
+          Powered by {' '}
+          <a href="//kutt.it" title="Kutt.it">
             The Devs
           </a>
           .{' | '}
@@ -51,10 +51,6 @@ class Footer extends Component {
             target="_blank" // eslint-disable-line react/jsx-no-target-blank
           >
             GitHub
-          </a>
-          {' | '}
-          <a href="/terms" title="Terms of Service">
-            Terms of Service
           </a>
           {' | '}
           <a href="/report" title="Report abuse">
