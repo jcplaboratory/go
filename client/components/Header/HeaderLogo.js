@@ -34,7 +34,7 @@ const HeaderLogo = props => {
     const path = e.target.getAttribute('href');
     if (window.location.pathname === path) return;
     props.showPageLoading();
-    Router.push('http://go.jcplaboratory.org');
+    Router.push(path);
   };
 
   return (
