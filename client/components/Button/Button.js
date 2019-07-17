@@ -146,7 +146,7 @@ Button.propTypes = {
 };
 
 Button.defaultProps = {
-  color: 'blue',
+  color: 'teal',
   icon: '',
   type: '',
   round: false,
