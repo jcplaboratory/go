@@ -31,24 +31,14 @@ class Homepage extends Component {
     const needToLogin = !isAuthenticated && <NeedToLogin />;
     const table = isAuthenticated && <Table />;
 
-    if (isAuthenticated) {
-      return (
-        <BodyWrapper>
-          <Shortener />
-          {needToLogin}
-          {table}
-          <Footer />
-        </BodyWrapper>
-      );
-    } else {
-      return (
-        <BodyWrapper>
-          {needToLogin}
-          {table}
-          <Footer />
-        </BodyWrapper>
-      );
-    }
+    return (
+      <BodyWrapper>
+        <Shortener />
+        {needToLogin}
+        {table}
+        <Footer />
+      </BodyWrapper>
+    );
   }
 }
 
