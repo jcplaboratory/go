@@ -2,7 +2,7 @@
 
 # J.C.P Laboratory GO
 
-GO is a private URL shortener based on Kutt,
+GO is a private URL shortener based on Kutt.
 
 *Contributions and bug reports are welcome.*
 
