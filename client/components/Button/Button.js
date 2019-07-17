@@ -46,7 +46,7 @@ const StyledButton = styled.button`
   ${({ color }) => {
     if (color === 'purple') {
       return css`
-        background: linear-gradient(to right, #7e57c2, #6200ea);
+        background: linear-gradient(to right, #244072, #d3c8e3);
         box-shadow: 0 5px 6px rgba(81, 45, 168, 0.5);
 
         :focus,
