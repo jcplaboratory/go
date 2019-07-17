@@ -30,16 +30,25 @@ class Homepage extends Component {
     const { isAuthenticated } = this.props;
     const needToLogin = !isAuthenticated && <NeedToLogin />;
     const table = isAuthenticated && <Table />;
-    return (
-      <BodyWrapper>
-        <Shortener />
-        {needToLogin}
-        {table}
-        <Features />
-        <Extensions />
-        <Footer />
-      </BodyWrapper>
-    );
+
+    if (isAuthenticated) {
+      return (
+        <BodyWrapper>
+          <Shortener />
+          {needToLogin}
+          {table}
+          <Footer />
+        </BodyWrapper>
+      );
+    } else {
+      return (
+        <BodyWrapper>
+          {needToLogin}
+          {table}
+          <Footer />
+        </BodyWrapper>
+      );
+    }
   }
 }
 
