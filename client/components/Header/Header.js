@@ -36,7 +36,6 @@ const LeftMenuWrapper = styled.div`
 
 const Header = props => (
   <Wrapper>
-    <title>J.C.P Laboratory</title>
     <LeftMenuWrapper>
       <HeaderLogo showPageLoading={props.showPageLoading} />
       <HeaderLeftMenu />

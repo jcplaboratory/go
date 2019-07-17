@@ -10,7 +10,7 @@ class MyApp extends App {
     return (
       <Container>
         <Head>
-          <title>Kutt.it | Modern Open Source URL shortener.</title>
+          <title>J.C.P Laboratory | URL Shortener.</title>
         </Head>
         <Provider store={reduxStore}>
           <Component {...pageProps} />
