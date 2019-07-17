@@ -18,7 +18,7 @@ const Underline = styled.span`
 
 const ShortenerTitle = () => (
   <Title>
-    Shorten your links <Underline>shorter</Underline>.
+    <Underline>Shorten</Underline> your links.
   </Title>
 );
 
