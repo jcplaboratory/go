@@ -13,6 +13,7 @@ const List = styled.ul`
   list-style: none;
   margin: 0 0 3px;
   padding: 0;
+  padding-bottom: 8px;
 
   @media only screen and (max-width: 488px) {
     display: none;
