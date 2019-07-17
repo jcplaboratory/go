@@ -11,7 +11,7 @@ import { showPageLoading } from '../../actions';
 const Wrapper = styled.header`
   display: flex;
   width: 1232px;
-  max-width: 100%;
+  max-width: 100%;\\
   padding: 0 32px;
   height: 102px;
   justify-content: space-between;
@@ -36,6 +36,7 @@ const LeftMenuWrapper = styled.div`
 
 const Header = props => (
   <Wrapper>
+    <title>J.C.P Laboratory</title>
     <LeftMenuWrapper>
       <HeaderLogo showPageLoading={props.showPageLoading} />
       <HeaderLeftMenu />
