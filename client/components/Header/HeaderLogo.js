@@ -41,6 +41,7 @@ const HeaderLogo = props => {
     <LogoImage>
       <a href="/" title="Homepage" onClick={goTo}>
         <img src="/images/nav-banner_ra_large.png" alt="" />
+        J.C.P Laboratory
       </a>
     </LogoImage>
   );
