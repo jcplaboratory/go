@@ -84,7 +84,7 @@ class Login extends Component {
     if (!email) return showError('Email address must not be empty.');
     if (!emailValidator.validate(email)) return showError('Email address format is not valid.');
     if (!/@jcplaboratory.org\s*$/.test(email)) {
-        return showError('You need a J.C.P Laboratory address to register.');
+        return showError('This service requires a J.C.P Laboratory address.');
     } 
     if (password.trim().length < 8) {
       return showError('Password must be at least 8 chars long.');
