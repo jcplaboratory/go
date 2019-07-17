@@ -42,7 +42,7 @@ class Footer extends Component {
         <Text>
           Powered by {' '}
           <a href="//kutt.it" title="Kutt.it">
-            The Devs
+            Kutt.it
           </a>
           .{' | '}
           <a
