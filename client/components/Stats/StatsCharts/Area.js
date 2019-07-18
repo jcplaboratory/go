@@ -59,7 +59,7 @@ const ChartArea = ({ data: rawData, period }) => {
           type="monotone"
           dataKey="views"
           isAnimationActive={false}
-          stroke="#B39DDB"
+          stroke="#349999"
           fillOpacity={1}
           fill="url(#colorUv)"
         />
