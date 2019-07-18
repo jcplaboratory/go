@@ -40,7 +40,7 @@ const HeaderLogo = props => {
   return (
     <LogoImage>
       <a href="/" title="Homepage" onClick={goTo}>
-        <img src="/images/nav-banner_ra_large.png" alt="" />
+        <img src="/images/jcplab-banner.svg" alt="Home" />
       </a>
     </LogoImage>
   );
