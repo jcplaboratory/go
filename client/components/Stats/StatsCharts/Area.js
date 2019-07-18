@@ -47,8 +47,8 @@ const ChartArea = ({ data: rawData, period }) => {
       >
         <defs>
           <linearGradient id="colorUv" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="5%" stopColor="#B39DDB" stopOpacity={0.8} />
-            <stop offset="95%" stopColor="#349999" stopOpacity={0} />
+            <stop offset="5%" stopColor="#349999" stopOpacity={0.8} />
+            <stop offset="95%" stopColor="#B39DDB" stopOpacity={0} />
           </linearGradient>
         </defs>
         <XAxis dataKey="name" />
