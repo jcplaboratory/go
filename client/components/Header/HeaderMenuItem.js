@@ -21,7 +21,7 @@ const ListLink = styled.div`
   }
   & > a:hover {
     color: ##339999;
-    border-bottom: 1px dotted #2196f3;
+    border-bottom: 1px dotted ##339999;
   }
 `;
 
