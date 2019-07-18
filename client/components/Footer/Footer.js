@@ -60,8 +60,6 @@ class Footer extends Component {
           <a href="https://www.jcplaboratory.org/contact-us/" title="Contact Us">
             Contact Us
           </a>
-          )}
-          .
         </Text>
       </Wrapper>
     );

@@ -74,7 +74,7 @@ const NeedToLogin = () => (
   <Wrapper>
     <TitleWrapper>
       <Title>
-        <b>Private</b>, modern link shortening service powered by Kutt.
+        <b>Private</b>, modern and sleek link shortening service powered by Kutt.
       </Title>
       <Link href="/login" prefetch>
         <a href="/login" title="login / signup">
