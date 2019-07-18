@@ -20,8 +20,8 @@ const ListLink = styled.div`
     text-decoration: none;
   }
   & > a:hover {
-    color: ##339999;
-    border-bottom: 1px dotted ##339999;
+    color: #3CB3A6;
+    border-bottom: 1px dotted #3CB3A6;
   }
 `;
 
