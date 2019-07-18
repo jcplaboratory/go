@@ -41,12 +41,12 @@ class Footer extends Component {
         {!this.props.isAuthenticated && <ReCaptcha />}
         <Text>
           Powered by {' '}
-          <a href="//kutt.it" title="Kutt.it">
+          <a href="//kutt.it" title="Kutt.it" target="_blank">
             Kutt.it
           </a>
           .{' | '}
           <a
-            href="https://github.com/thedevs-network/kutt"
+            href="https://github.com/jcplaboratory/go"
             title="GitHub"
             target="_blank" // eslint-disable-line react/jsx-no-target-blank
           >
@@ -56,13 +56,10 @@ class Footer extends Component {
           <a href="/report" title="Report abuse">
             Report Abuse
           </a>
-          {process.env.CONTACT_EMAIL && (
-            <Fragment>
-              {' | '}
-              <a href={`mailto:${process.env.CONTACT_EMAIL}`} title="Contact us">
-                Contact us
-              </a>
-            </Fragment>
+          {' | '}
+          <a href="https://www.jcplaboratory.org/contact-us/" title="Contact Us">
+            Contact Us
+          </a>
           )}
           .
         </Text>

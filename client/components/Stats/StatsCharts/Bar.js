@@ -19,7 +19,7 @@ const ChartBar = ({ data }) => (
       <YAxis type="category" dataKey="name" />
       <CartesianGrid strokeDasharray="1 1" />
       <Tooltip />
-      <Bar dataKey="value" fill="#B39DDB" />
+      <Bar dataKey="value" fill="#349999" />
     </BarChart>
   </ResponsiveContainer>
 );

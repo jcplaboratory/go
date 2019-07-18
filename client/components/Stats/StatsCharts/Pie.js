@@ -19,7 +19,7 @@ const ChartPie = ({ data }) => (
         data={data}
         dataKey="value"
         innerRadius={window.innerWidth < 468 ? 20 : 80}
-        fill="#B39DDB"
+        fill="#349999"
         label={renderCustomLabel}
       />
       <Tooltip />
