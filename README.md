@@ -18,9 +18,13 @@ GO is a private URL shortener based on Kutt.
 * Neo4j version 3.5.14 (Graph database)
 
 wget -O - https://debian.neo4j.org/neotechnology.gpg.key | sudo apt-key add -
+
 echo 'deb https://debian.neo4j.org/repo stable/' | sudo tee /etc/apt/sources.list.d/neo4j.list
+
 sudo apt-get update
+
 sudo apt-get install neo4j=1:3.5.14
+
 
 
 ## Setup
